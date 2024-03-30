@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f7ff; /* ライトブルーの背景色 */
+}
+
+header {
+  background-color: #3498db; /* 青色のヘッダー */
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+}
+
+#artworks {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+  padding: 20px;
+}
+
+.artwork {
+  background-color: #fff; /* 白色の背景色 */
+  border: 1px solid #3498db; /* 青色のボーダー */
+  padding: 20px;
+}
+
+.artwork img {
+  max-width: 100%;
+  height: auto;
+}
